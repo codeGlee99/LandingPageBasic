@@ -531,19 +531,23 @@ h3{
 }
 
 
-input {
-    outline: none;          
-    border: 1px solid #cccccce1;   
+
+
+.form-details  input[type="text"]{
+    padding: 10px;
     width: 100%;
     height: 5vh;
+    outline: none; 
+    border: 1px solid #ccc; 
 }
 
-textarea{
+.form-details textarea{
     height: 10vh;
     width: 100%;
     outline: none;          
     border: 1px solid #ccc; 
     overflow: hidden;
+    padding: 10px;
 }
 .form-details hero-btn{
     align-items: center;
